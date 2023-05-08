@@ -1,0 +1,38 @@
+.home {
+  background-image: url("../../assets/images/background_hoa_sen.svg");
+  padding: 100px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  &__content {
+    background: $linear-home;
+    border-radius: 24px;
+    padding: 96px 224px 192px 224px;
+  }
+  &__search {
+    margin-top: 40px;
+    display: flex;
+    justify-content: center;
+  }
+}
+
+.text-home {
+  color: $color-white;
+  font-size: 72px;
+  font-weight: 600;
+  line-height: 90px;
+  text-align: center;
+  &-system {
+    color: $color-white;
+    font-size: 40px;
+    font-weight: 600;
+    line-height: 90px;
+    text-align: center;
+}
+&-des {
+    color: $color-white;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+  }
+}

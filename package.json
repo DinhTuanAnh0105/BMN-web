@@ -17,6 +17,7 @@
     "formik": "^2.2.9",
     "immer": "^9.0.21",
     "lodash": "^4.17.21",
+    "node-sass": "^8.0.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^8.0.5",

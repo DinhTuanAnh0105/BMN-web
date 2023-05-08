@@ -19,6 +19,8 @@ interface InputProps<T, V> extends ICustomFieldInputProps<any, any> {
   field?: FieldInputProps<T>;
   form?: FormikHelpers<V> & FormikState<any>;
   disabled?: boolean;
+  label?: string;
+  isRequied?: boolean
 }
 
 export default InputProps;

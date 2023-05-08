@@ -1,0 +1,39 @@
+.footer {
+  background-image: url("../../assets/images/background_footer.svg");
+  height: 391px;
+  object-fit: cover;
+  flex-shrink: 0;
+  &__content {
+    margin: 40px 100px;
+    &-left {
+      display: flex;
+      align-items: center;
+    }
+    &-right {
+      color: $color-white;
+    }
+  }
+  &__copyright {
+    margin: 40px 100px;
+    color: $color-copyright;
+    display: flex;
+    justify-content: space-between;
+    &-contact {
+      display: flex;
+      justify-content: space-between;
+    }
+  }
+}
+
+.text-logofooter {
+  color: $color-white;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 36px;
+  margin-left: 20px;
+}
+
+.hr-footer {
+  border-color: $color-hr;
+  width: 85%;
+}

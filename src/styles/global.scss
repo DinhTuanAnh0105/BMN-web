@@ -1,0 +1,53 @@
+//! color
+$color-white: #fff;
+$color-black: #000;
+$color-button: #ae7d00;
+$color-border: #c78f00;
+$color-header: #b20942;
+$color-copyright: #d0d5dd;
+$color-hr: #d0d5dd;
+$color-license: #e1720b;
+$color-vneid: #667085;
+$color-search: #b10044;
+
+$linear-home: linear-gradient(26.57deg, #c78f00 8.33%, #7d5525 91.67%);
+
+//! font size
+$s12: 12px;
+$s14: 14px;
+$s16: 16px;
+$s17: 17px;
+$s18: 18px;
+$s20: 20px;
+$s30: 30px;
+$s40: 40px;
+$s72: 72px;
+
+.text-24 {
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 24px;
+  color: $color-black;
+}
+
+.text-16 {
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text-14 {
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 24px;
+}
+
+.text-18 {
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+}
+
+.distance-button {
+  margin: 0 20px;
+}

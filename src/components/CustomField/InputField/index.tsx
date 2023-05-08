@@ -13,6 +13,8 @@ const Input = ({
   form,
   onBlur,
   disabled,
+  label,
+  isRequied,
   ...props
 }: InputProps<any, any>) => {
   const inputName = name || props?.field?.name || "";
@@ -21,7 +23,8 @@ const Input = ({
   const inputOnBlur = onBlur || props.field?.onBlur;
   const { errors, touched } = form ?? {};
   return (
-    <div>
+    <div className="wrap-input">
+      {label ? `${label}${isRequied ? `(*)` : ""}` : ""}
       <InputAntd
         name={inputName}
         disabled={disabled}
@@ -31,11 +34,11 @@ const Input = ({
         onChange={inputOnChange}
         onBlur={inputOnBlur}
         placeholder={placeholder}
-        className={`custom_input ${className}`}
+        className={`custom-input ${className}`}
       />
       {touched?.[inputName] && errors?.[inputName] && (
         <span className="span_error">
-          <ErrorMessage name={inputName || ""}  />
+          <ErrorMessage name={inputName || ""} />
         </span>
       )}
     </div>

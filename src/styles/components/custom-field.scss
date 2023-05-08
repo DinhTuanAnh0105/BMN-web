@@ -1,0 +1,71 @@
+.custom-button {
+  font-size: $s16;
+  background: $color-button;
+  font-weight: 500;
+  color: $color-white;
+  line-height: 24px;
+  border: none;
+}
+
+.custom-button:hover {
+  color: $color-white !important;
+}
+
+.btn-nocolor {
+  background: none;
+}
+
+.btn-search {
+  background: $color-search;
+}
+
+.wrap-input {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.custom-input {
+  flex: 1;
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid $color-black;
+  background: transparent;
+}
+
+.custom-input:hover {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid $color-black;
+}
+.custom-input:focus {
+  border: none;
+  border-radius: 0;
+  border-bottom: 1px solid $color-black;
+  box-shadow: none;
+}
+
+.ant-select {
+  width: 100% !important;
+  border-bottom: 1px solid $color-black !important;
+}
+
+.ant-select-selector {
+  background: transparent !important;
+  border: none !important;
+  border-radius: 0 !important;
+  box-shadow: none !important;
+  //   border-bottom: 1px solid $color-black !important;
+}
+
+.ant-select-focused {
+  //   border: none !important;
+  border-radius: 0 !important;
+  //   border-bottom: 1px solid $color-black !important;
+  box-shadow: none !important;
+  background-color: red !important;
+}
+
+.ant-select-open {
+  box-shadow: none !important;
+}

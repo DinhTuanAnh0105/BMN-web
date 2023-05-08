@@ -1,0 +1,28 @@
+.form-management {
+  background-image: url("../../assets/images/background_logo.svg");
+  background-repeat: no-repeat;
+  background-position: center;
+  // background-attachment: fixed;
+  bottom: 391px;
+  padding: 80px 55px;
+  &__title {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 24px;
+    margin-bottom: 30px;
+  }
+  &__info {
+    &-header {
+      width: 60%;
+      display: flex;
+      justify-content: space-between;
+      margin: 45px 0;
+    }
+  }
+  &__groupbutton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 70px;
+  }
+}

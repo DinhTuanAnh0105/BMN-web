@@ -27,7 +27,12 @@ export enum Size {
   Small = "small",
 }
 
+export enum SelectStatus {
+  Error = "error",
+  Warning = "warning",
+}
+
 export interface IDefaultLayout {
-  children: React.ReactElement,
-  isNoDefault?: boolean
+  children: React.ReactElement;
+  isNoDefault?: boolean;
 }

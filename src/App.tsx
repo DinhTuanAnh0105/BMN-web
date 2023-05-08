@@ -9,6 +9,8 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Dashboard from "./pages/Dashboard";
 import withAuthentication from "./HOCs/withAuthentication";
+import "../src/styles/styles.scss";
+
 
 // function App() {
 //   return (

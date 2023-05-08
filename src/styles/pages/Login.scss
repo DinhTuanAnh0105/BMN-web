@@ -1,0 +1,48 @@
+.login {
+  background-image: url("../../assets/images/background_login.svg");
+  min-height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  &__content {
+    padding: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 1350px;
+    margin: auto;
+  }
+}
+
+.text-system {
+  color: $color-border;
+  font-size: 60px;
+  font-weight: 600;
+  line-height: 72px;
+  margin-bottom: 24px;
+}
+
+.text-license {
+  color: $color-license;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+}
+
+.login-vneid {
+    display: flex;
+    align-items: center;
+    margin: 46px 0;
+}
+
+.text-login-with {
+  background-color: $color-white;
+  color: $color-vneid;
+  padding: 12px 14px 12px 14px;
+  border-radius: 8px;
+  margin-right: 20px;
+}
+
+.btn-login-vneid {
+    height: 74px;
+    width: 191px;
+}

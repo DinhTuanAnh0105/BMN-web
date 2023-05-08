@@ -1,0 +1,67 @@
+.header,
+.header-login {
+  height: 80px;
+  background: $color-header;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-right: 30px;
+}
+
+.header-login {
+  justify-content: space-between;
+  &__logo {
+    display: flex;
+    align-items: center;
+  }
+}
+
+.ant-space-item {
+  color: $color-white !important;
+  font-weight: 600;
+  font-size: 17px;
+  line-height: 0px !important;
+}
+
+.ant-dropdown-menu {
+  margin-top: 26px !important;
+  border: 1px solid $color-border;
+}
+
+.ant-dropdown-menu-title-content {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+}
+
+.group-menu {
+  display: flex;
+  justify-content: space-around;
+  flex: 1;
+}
+
+.current-user {
+  display: flex;
+  align-items: center;
+}
+
+.current-name {
+  font-size: 12px;
+  font-weight: 600;
+  line-height: 24px;
+  color: $color-black;
+  margin-left: 5px;
+}
+
+.header-operation {
+  display: flex;
+}
+
+.btn-logout {
+  margin: 0 20px;
+}
+
+.text-welcome {
+  color: $color-white;
+  margin: 0 30px;
+}

@@ -4,7 +4,7 @@ import Loading from "../../components/Loading";
 import Footer from "../../components/Footer";
 import { IDefaultLayout } from "../../interfaces";
 
-const DefaultLayout: React.FC<IDefaultLayout> = ({children, isNoDefault}) => {
+const DefaultLayout: React.FC<IDefaultLayout> = ({ children, isNoDefault }) => {
   //! define
 
   //! state
@@ -15,13 +15,13 @@ const DefaultLayout: React.FC<IDefaultLayout> = ({children, isNoDefault}) => {
 
   //! render
   return (
-    <Fragment>
+    <div style={{ display: "flex", flexDirection: "column" }}>
       <Header />
-      <main>
+      <main style={{ flex: "1 0 auto" }}>
         <Suspense fallback={<Loading />}>{children}</Suspense>
       </main>
       <Footer />
-    </Fragment>
+    </div>
   );
 };
 
